@@ -1,0 +1,15 @@
+{
+    "description": "This is sample data saved with a timestamp.",
+    "timestamp": "2025-04-12T22:28:01.601145",
+    "data_points": [
+        {
+            "value": 10
+        },
+        {
+            "value": 25
+        },
+        {
+            "value": 15
+        }
+    ]
+}

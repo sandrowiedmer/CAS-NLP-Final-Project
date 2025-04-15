@@ -1,0 +1,15 @@
+{
+    "name": "Example Data",
+    "version": 1.0,
+    "description": "This is a simple example of data saved in a JSON file.",
+    "items": [
+        {
+            "id": 1,
+            "value": "first"
+        },
+        {
+            "id": 2,
+            "value": "second"
+        }
+    ]
+}
