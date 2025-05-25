@@ -1,6 +1,9 @@
 from parameters import MARKET, PRODUCTS
 
-system_prompt = f"You are a helpful assistant with deep knowledge about the {MARKET} and corresponding manufacturing processes. Please help me do a market analysis for the {MARKET}, relevant for a company developing and offering {PRODUCTS}. Please answer in max. 100 words, with not to much stop words and no fillers. As much as possible only in bullet points."
+#system_prompt = f"You are a helpful assistant with deep knowledge about the {MARKET} and corresponding manufacturing processes. Please help me do a market analysis for the {MARKET}, relevant for a company developing and offering {PRODUCTS}. Please answer in max. 100 words, with not to much stop words and no fillers. As much as possible only in bullet points."
+#system_prompt = f"-"
+system_prompt = f"your output resp. response should be as short as possible, still with all relevant information in"
+
 
 
 
@@ -13,7 +16,7 @@ user_prompts_full_set = [
     f"Which other inspection technologies beside X-ray are used and at which steps of semiconductor manufacturing? For each of them: Why not X-ray: What are the pains of the current non-X-ray method and which advantages would using X-rays instead have?",
     f"Tell me more about X-ray lithography XRL, X-ray diffraction XRD and X-ray fluorescence XRF.",
     f"What else regarding the {MARKET} could be of interest for a company developing and selling {PRODUCTS}?",
-    f"Tell me about trends, relevant for us, what is the market potential of X-ray inspection in {MARKET}? What are the hurdles for entering the {MARKET}",
+    f"Tell me about trends, what is the market potential of X-ray inspection in {MARKET}? What are the hurdles for entering the {MARKET}",
     f"Who are you and which role are you playing?",
 ]
 
@@ -22,7 +25,7 @@ user_prompts_full_set = [
 
 # user_prompts = full_set indices, or:
 user_prompts = [
-    f"Tell me about trends, relevant for us, what is the market potential of X-ray inspection in {MARKET}? What are the hurdles for entering the {MARKET}",
+    f"Which other inspection technologies beside X-ray are used and at which steps of semiconductor manufacturing? For each of them: Why not X-ray: What are the pains of the current non-X-ray method and which advantages would using X-rays instead have?",
 ]
 
 #new: front end FEOL and back end BEOL
